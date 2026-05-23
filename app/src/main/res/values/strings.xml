@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reserva de Mesas</string>
+    <string name="reservar">RESERVAR</string>
+    <string name="hint_numero_mesa">Número Mesa</string>
+    <string name="liberar_mesa">Liberar Mesa</string>
+    <string name="salvar_operacao">Salvar Operação</string>
+    <string name="reservar_todas">Reservar Todas as Mesas</string>
+
+    <string name="mesa_habilitada">A mesa %1$d encontra-se habilitada para reserva.</string>
+    <string name="todas_reservadas">Operação não permitida. Todas as mesas já possuem reserva.</string>
+    <string name="numero_invalido">Por favor, insira um número de mesa válido (1 a 9).</string>
+    <string name="operacao_salva">Operações salvas com sucesso!</string>
+
+    <string name="configuracoes">Configurações</string>
+    <string name="logout">Logout</string>
+    <string name="erro_login_vazio">Usuário ou senha não podem ser vazios</string>
+    <string name="erro_login_invalido">Credenciais inválidas</string>
+    <string name="escolha_cor">Escolha a cor das mesas reservadas:</string>
+    <string name="cor_vermelha">Vermelho (Padrão)</string>
+    <string name="cor_verde">Verde</string>
+    <string name="cor_laranja">Laranja</string>
+</resources>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="2"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="3"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="4"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar4"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="5"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar5"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear6"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="6"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar6"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear7"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="7"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar7"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear8"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="8"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar8"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear9"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/txtNumero9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="9"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservar9"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/reservar"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp">
+
+            <EditText
+                android:id="@+id/NmrMesa"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:hint="Número Mesa">
+            </EditText>
+
+            <Button
+                android:id="@+id/LiberarMesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liberar Mesa"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/SalvarOperacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Operação">
+        </Button>
+
+        <Button
+            android:id="@+id/ReservarTodas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reservar_todas"/>
+
+        <Button
+            android:id="@+id/btnConfiguracoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/configuracoes" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout" />
+
+    </LinearLayout>
+
+</LinearLayout>
